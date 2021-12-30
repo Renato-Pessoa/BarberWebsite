@@ -1,0 +1,106 @@
+header {
+    background: red;
+    padding: 20px 0;
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.caixa h1 {
+    padding: 20px 0;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+#banner {
+    width: 100%;
+    padding: 30px 0;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.principal {
+    background :white;
+    padding: auto;
+}
+
+.titulo-centralizado {
+    text-align: center;
+    color: blue;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+p {
+    text-align: center;
+    color: blue;
+}
+
+#mission {
+    font-size: 20px
+}
+
+em strong {
+    color: red;
+}
+
+.beneficios h3 {
+    background: white;
+    padding: 20px;
+    font-size: large;
+}
+
+.servicos {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-left: 20%;
+    color: blue;
+    font-weight: bold;
+}
+
+.itens {
+    font-style: italic;
+}
+
+.imagemBeneficios {
+    width: 50%;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    background: blue;
+}
+
+.copyright {
+    color: white;
+    font-size: 13px;
+    margin-top: 40px;
+    padding: 20px;
+}
