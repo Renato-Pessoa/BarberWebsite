@@ -3,7 +3,7 @@ body {
 }
 
 header {
-    background: red;
+    background: #888888;
     padding: 20px 0;
 }
 
@@ -43,6 +43,13 @@ nav a:hover {
     width: 100%;
 }
 
+.principal {
+    padding: 3em 0;
+    background: #FEFEFE;
+    width: 940px;
+    margin: 0 auto;
+}
+
 .principal p{
     margin-bottom: 1em;
 }
@@ -70,6 +77,12 @@ nav a:hover {
 
 .mapa {
     padding: 3em 0;
+    background: linear-gradient(#FEFEFE, rgb(231, 149, 42));
+}
+
+.mapa-conteudo {
+    width: 940px;
+    margin: 0 auto;
 }
 
 .mapa p {
@@ -79,6 +92,7 @@ nav a:hover {
 
 .beneficios {
     padding: 3em 0;
+    background: linear-gradient(rgb(231, 149, 42), #FEFEFE) ;
 }
 
 .produtos li {
@@ -134,13 +148,9 @@ nav a:hover {
     margin-top: 20px;
 }
 
-main {
-    width: 940px;
-    margin: 0 auto;
-}
-
 form {
     margin: 40px 0;
+    margin-left: 40px;
 }
 
 form label, form legend {
@@ -180,6 +190,7 @@ form label, form legend {
 
 table {
     margin: 20px 0 40px;
+    margin-left: 40px;
 }
 
 thead {
@@ -195,7 +206,7 @@ td, th{
 
 footer {
     text-align: center;
-    background: blue;
+    background: #888888;
     padding: 40px;
 }
 
