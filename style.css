@@ -1,16 +1,21 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
 header {
     background: red;
     padding: 20px 0;
 }
 
 .caixa {
+    /* position relative pega o ponto inicial e pode deslocar */
     position: relative;
     width: 940px;
     margin: 0 auto;
 }
 
-
 nav {
+    /* position absolute pega o ponto inicial e levanta para botar onde quiser  */
     position: absolute;
     top: 110px;
     right: 0;
@@ -32,6 +37,48 @@ nav a {
 nav a:hover {
     font-size: 23px;
     text-decoration: underline;
+}
+
+.banner {
+    width: 100%;
+}
+
+.principal p{
+    margin-bottom: 1em;
+}
+
+.principal strong {
+    font-weight: bold;
+}
+
+.principal em {
+    font-style: italic;
+}
+
+.titulo-principal {
+    text-align: center;
+    font-size: 2em;  /* 2x o tamanho base de pixels */
+    margin-bottom: 1em;
+    clear: left;
+}
+
+.utensilios {
+    width: 120px; 
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.mapa {
+    padding: 3em 0;
+}
+
+.mapa p {
+    margin: 0 0 2em;
+    text-align: center;
+}
+
+.beneficios {
+    padding: 3em 0;
 }
 
 .produtos li {
@@ -150,4 +197,34 @@ footer {
     text-align: center;
     background: blue;
     padding: 40px;
+}
+
+.conteudo-beneficios {
+    width: 640px;
+    margin: 0 auto;
+}
+
+.lista-beneficios {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.itens {
+    /* Altera o espaço da linha */
+    line-height: 1.5;
+}
+
+/* Pseudo elemento first-child sendo utilizado para deixar o primeiro paragráfo da lista em nefrito */
+.itens:first-child{
+    font-weight: bold;
+}
+
+.imagem-beneficios {
+    width: 60%;
+}
+
+.video {
+    width: 560px;
+    margin: 2em auto;
 }
